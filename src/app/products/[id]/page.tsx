@@ -13,8 +13,8 @@ export default function Page({ params }: { params: { id: number } }) {
     <div className='flex mt-16 py-10 flex-wrap justify-evenly '>
 
     { result.map((prod)=>(
-      <div>
-     <div key={prod.id} className="flex justify-between"> 
+      <div  key={prod.id} className="flex justify-between">
+     <div> 
      </div>
      <div className="flex justify-between gap-10">
       <Image src={prod.image} alt={prod.name}/>
