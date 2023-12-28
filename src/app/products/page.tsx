@@ -12,6 +12,7 @@ const Allproducts = () => {
       price={prod.price} 
       img={prod.image}
       category={prod.category}
+      id={prod.id}
       /> 
     )
     ) }
