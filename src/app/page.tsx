@@ -6,7 +6,8 @@ export default function Home() {
     <>
     <main>
     <HeroSec/>
-    <h1 className='font-bold text-2xl flex justify-center p-10 -mb-20 text-centrer'>Top Trending</h1>
+    <h1 className='font-bold font-serif text-4xl flex justify-center p-10 -mb-20 text-centrer'>
+      Top Trending</h1>
     <Products/>
 
    </main>

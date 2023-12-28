@@ -3,6 +3,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import imagee from '/public/Heroimg.webp'
 import Image from 'next/image'
+import Link from 'next/link'
 const HeroSec = () => {
   return (
   
@@ -19,7 +20,9 @@ const HeroSec = () => {
       Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.
       </p>
         <br/>
-      <Button className='bg-black h-12 px-8 mt-4'>Start Shopping</Button>
+        <Link href={'/products'}>
+      <Button className='bg-black h-12 px-8 py-10 mt-4'>Start Shopping</Button>
+      </Link>
     </div>
     
 
