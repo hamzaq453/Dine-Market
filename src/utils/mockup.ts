@@ -15,25 +15,29 @@ export const Products:Product[] =[
     name:'Brushed Raglan Sweatshirt',
     price: 135,
     category: 'female',
-    image: P6
+    image: P6,
+    tagline: 'Sweater'
     },
     {
         id:2,
         name:'Flex Sweatshirt',
         price: 175,
         category: 'female',
-        image: P3
+        image: P3,
+        tagline: 'Sweater'
     },
     {
         id:3,
         name:'Raglan Sweatshirt',
         price: 100,
         category: 'female',
+        tagline: 'Sweater',
         image: P1
     },
     {
         id:4,
         name:'Imperial Alpaca Hoodie',
+        tagline: 'Jackets',
         price: 525,
         category: 'female',
         image: P4
@@ -41,6 +45,7 @@ export const Products:Product[] =[
     {
         id:5,
         name:'Cameryn Dress ',
+        tagline: 'Dress',
         price: 545,
         category: 'female',
         image: P2
@@ -48,6 +53,7 @@ export const Products:Product[] =[
     {
         id:6,
         name:'Flex Push Button Bomber',
+        tagline: 'Jackets',
         price: 235,
         category: 'male',
         image: P5
@@ -62,6 +68,7 @@ export const Products:Product[] =[
          {
                 id:8,
                 name:'Muscle Tank',
+                tagline: 'T Shirts',
                 price: 75,
                 category: 'female',
                 image: P7
@@ -69,6 +76,7 @@ export const Products:Product[] =[
          {
             id:9,
             name:'Raglan Sweatshirt',
+            tagline: 'sweater',
             price: 195,
             category: 'male',
             image: P8

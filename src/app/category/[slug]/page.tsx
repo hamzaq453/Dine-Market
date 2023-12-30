@@ -1,5 +1,6 @@
 import PrCard from "@/comp/PrCard"
 import { Products } from "@/utils/mockup"
+import { CaseUpper } from "lucide-react"
 
 const getProductsByCategory = (category:string) => {
   return Products.filter((product)=>product.category===category)
@@ -17,7 +18,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         title={prod.name} 
         price={prod.price} 
         img={prod.image}
-        category={prod.category}
+        category={ prod.category }
         id={prod.id}
 
         /> 
