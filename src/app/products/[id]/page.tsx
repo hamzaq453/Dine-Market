@@ -21,9 +21,10 @@ export default function Page({ params }: { params: { id: number } }) {
             <Image key={prod.id} src={prod.image} alt={prod.name} />
           </div>
           <div>
-            <div>
+            <div className="">
               <h1 className="text-3xl font-mono">{prod.name}</h1>
               <h2 className="text-xl text-gray-400 font-semibold">{prod.tagline}</h2>
+              
             </div>
 
             <div>

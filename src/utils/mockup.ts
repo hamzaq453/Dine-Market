@@ -78,7 +78,7 @@ export const Products:Product[] =[
          {
             id:9,
             name:'Raglan Sweatshirt',
-            tagline: 'sweater',
+            tagline: 'Sweater',
             price: 195,
             category: 'male',
             image: P8

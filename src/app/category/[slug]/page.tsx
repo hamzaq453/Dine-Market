@@ -19,6 +19,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         price={prod.price} 
         img={prod.image}
         category={ prod.category }
+        tagline={prod.tagline}
         id={prod.id}
 
         /> 
