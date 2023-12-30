@@ -2,11 +2,13 @@ import Image from 'next/image'
 import HeroSec from '@/views/HeroSec'
 import Products from '@/views/ProductsList'
 import Newsletter from '@/comp/Newsletter'
+import Promotions from '@/comp/Promotions'
 export default function Home() {
   return (
     <>
     <main>
     <HeroSec/>
+    <Promotions/>
     <h1 className='font-bold font-serif text-4xl flex justify-center p-10 -mb-20 text-centrer'>
       Top Trending</h1>
     <Products/>

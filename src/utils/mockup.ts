@@ -7,6 +7,7 @@ import P5 from '/public/P5.png'
 import P6 from '/public/P6.png'
 import P7 from '/public/P7.png'
 import P8 from '/public/P8.png'
+import K2 from '/public/K2.png'
 
 
 export const Products:Product[] =[
@@ -58,13 +59,14 @@ export const Products:Product[] =[
         category: 'male',
         image: P5
         },
-        // {
-        //     id:7,
-        //     name:'Brushed Bomber',
-        //     price: 225,
-        //     category: 'female',
-        //     image: P2
-        //  },
+        {
+            id:7,
+            name:'Bubby Sweatshirt ',
+            price: 225,
+            category: 'kids',
+            image: K2,
+            tagline: 'Jackets'
+         },
          {
                 id:8,
                 name:'Muscle Tank',
