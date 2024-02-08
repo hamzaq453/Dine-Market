@@ -7,7 +7,7 @@ import Link from 'next/link'
 const HeroSec = () => {
   return (
   
-    <section className='flex flex-col gap-y-10 py-6 lg:flex-row mt-16'>
+    <section className='flex flex-col gap-y-10 py-6 lg:flex-row mt-8'>
       
 
     <div className='flex-1'>

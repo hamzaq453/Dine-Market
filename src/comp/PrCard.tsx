@@ -15,7 +15,7 @@ function PrCard (props:{
   return (
     <>   
     <Link href={`/products/${props.id}`}>
-    <div>
+    <div className='hover:scale-105 transition-transform ease-in-out duration-300 cursor-pointer mb-20'>
     <Image src={props.img} alt='P1'/>
     <h3 className='font-bold font-sans text-xl mt-3'>{props.title}</h3>
      <p className='text-xl text-gray-400 font-semibold'>{props.tagline}</p>  

@@ -3,6 +3,7 @@ import HeroSec from '@/views/HeroSec'
 import Products from '@/views/ProductsList'
 import Newsletter from '@/comp/Newsletter'
 import Promotions from '@/comp/Promotions'
+import Footer from '@/comp/Footer'
 export default function Home() {
   return (
     <>
@@ -26,6 +27,7 @@ export default function Home() {
         <div className='flex mt-6 justify-center items-center text-lg'>
       <Newsletter />
       </div>
+      <Footer/>
       </div>
    </main>
    </>

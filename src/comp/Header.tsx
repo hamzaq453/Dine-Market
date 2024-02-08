@@ -27,11 +27,11 @@ const Header = () => {
           <Link href={"/products"}>All Products</Link>
           </li>
       </ul>
-        <div>
+        {/* <div>
        
         <input  className='border border-black '
         placeholder=' What are you looking for?'/>  
-       </div> 
+       </div>  */}
       <div className='h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center'>
       <ShoppingCart className='h-6 w-6'/>
       </div>

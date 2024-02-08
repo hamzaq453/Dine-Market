@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/comp/Header'
 import Footer from '@/comp/Footer'
+import Copywrite from '@/comp/Copyright'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,7 @@ export default function RootLayout({
         <main className='px-8 py-8'>
         {children}
         </main>
-        <Footer/>
+        <Copywrite/>
         </body>
         
     </html>
