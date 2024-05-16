@@ -5,6 +5,6 @@ export type Product ={
     name: string;
     tagline: string;
     price: number;
-    category: string;
     image: StaticImageData 
+    category:string;
 }

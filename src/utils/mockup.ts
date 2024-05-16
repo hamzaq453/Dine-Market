@@ -1,91 +1,54 @@
 import { Product } from "./types";
-import P1 from '/public/P1.png'
-import P2 from '/public/P2.png'
-import P3 from '/public/P3.png'
-import P4 from '/public/P4.png'
-import P5 from '/public/P5.png'
-import P6 from '/public/P6.png'
-import P7 from '/public/P7.png'
-import P8 from '/public/P8.png'
-import K2 from '/public/K2.png'
+import P1 from '/public/Pack10.jpg'
+import P2 from '/public/10.jpg'
+import P4 from '/public/Pack50.jpg'
+
+
 
 
 export const Products:Product[] =[
     {
     id:1,
-    name:'Brushed Raglan Sweatshirt',
-    price: 135,
-    category: 'female',
-    image: P6,
-    tagline: 'Sweater'
+    name:'Silk Scrunchies Pack of 10',
+    price: 699,
+    image: P1,
+    tagline: 'Multicolors',
+    category:'scrunchies'
     },
     {
         id:2,
-        name:'Flex Sweatshirt',
-        price: 175,
-        category: 'female',
-        image: P3,
-        tagline: 'Sweater'
+        name:'Silk Scrunchies Pack of 12',
+        price: 849,
+        image: P2,
+        tagline: 'Scrunchies',
+        category:'scrunchies'
+
     },
     {
         id:3,
-        name:'Raglan Sweatshirt',
-        price: 100,
-        category: 'female',
-        tagline: 'Sweater',
-        image: P1
+        name:'Silk Scrunchies Pack of 20',
+        price: 999,
+        tagline: 'Scrunchies',
+        image: P1,
+        category:'scrunchies'
+
     },
     {
         id:4,
-        name:'Imperial Alpaca Hoodie',
+        name:'Silk Scrunchies Pack of 50',
         tagline: 'Jackets',
-        price: 525,
-        category: 'female',
-        image: P4
+        price: 2500,
+        image: P4,
+        category:'scrunchies'
+
     },
     {
         id:5,
-        name:'Cameryn Dress ',
+        name:'Silk Scrunchies Pack of 100',
         tagline: 'Dress',
-        price: 545,
-        category: 'female',
-        image: P2
+        price: 5900,
+        image: P2,
+        category:'scrunchies'
+
     },
-    {
-        id:6,
-        name:'Flex Push Button Bomber',
-        tagline: 'Jackets',
-        price: 235,
-        category: 'male',
-        image: P5
-        },
-        {
-            id:7,
-            name:'Bubby Sweatshirt ',
-            price: 225,
-            category: 'kids',
-            image: K2,
-            tagline: 'Jackets'
-         },
-         {
-                id:8,
-                name:'Muscle Tank',
-                tagline: 'T Shirts',
-                price: 75,
-                category: 'female',
-                image: P7
-         },
-         {
-            id:9,
-            name:'Raglan Sweatshirt',
-            tagline: 'Sweater',
-            price: 195,
-            category: 'male',
-            image: P8
-            },
-    
-            
-    
-
-
 ]

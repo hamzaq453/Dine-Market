@@ -9,16 +9,14 @@ export default function Home() {
     <>
     <main>
     <HeroSec/>
-    <Promotions/>
-    <div className='p-10 -mb-20 mt-10'>
-    <h2 className=' text-blue-700 text-center text-[10] font-bold'>TRENDING</h2>
+    <div className='p-4'>
+    <h2 className=' text-purple-600 text-center text-xl font-bold'>TRENDING</h2>
     <br />
-    <h1 className='font-bold font-serif text-4xl flex justify-center text-centrer'>
-      Top Trending</h1>
+    
       </div>
     <Products/>
     <div className='py-20'>
-    <div className='text-center text-4xl font-bold mt-10'>
+    {/* <div className='text-center text-4xl font-bold'>
         Subscribe Our Newsletter
         </div>
         <h2 className='text-center text-lg mt-4'>Get the latest information and promo offers directly
@@ -26,7 +24,7 @@ export default function Home() {
 
         <div className='flex mt-6 justify-center items-center text-lg'>
       <Newsletter />
-      </div>
+      </div> */}
       <Footer/>
       </div>
    </main>
